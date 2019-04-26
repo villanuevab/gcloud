@@ -43,7 +43,7 @@ Your account typically does not come with GPU quota. You have to explicitly requ
 
 * [Step-by-step GPU-specific walk-through](https://stackoverflow.com/questions/45227064/how-to-request-gpu-quota-increase-in-google-cloud) (all answers in the link are useful)
 
-**Please request the quota increase ASAP**, because they will take up to a week to process! If you don't have GPU quota, you will have to create a CPU-only VM first and create another GPU VM later, explained in the next section.
+**Please request the quota increase ASAP**, because they will take up to a week to process the request! If you don't have GPU quota > 0, you will have to create a CPU-only VM first and add the GPU to your VM later (explained in the next section).
 
 FAQ: 
 **_Why don't I see any GPU-related quotas when I follow the instructions to filter for them?_**. 
